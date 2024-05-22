@@ -54,7 +54,7 @@ IS_STREAM = bool(STREAM_BIN and STREAM_URL)
 #Use this feature, if you have deployed file to link bot. paste the app url with stream url and add filter bot as admin in bin channel and add id in stream bin
 
 # Others
-VERIFY = bool(environ.get('VERIFY', Flase))
+VERIFY = bool(environ.get('VERIFY', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'atglinks.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', '4ea03b824e5617678b845ec30a86f4821fd27ff4')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
